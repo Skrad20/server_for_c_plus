@@ -13,3 +13,6 @@ socket.send(JSON.stringify(
         "text": "Hello, 12"
     }
 ));
+
+
+socket.send('{"command": "set_name", "name": "Jon"}');
