@@ -1,0 +1,56 @@
+﻿  ServerScillbox.cpp
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(337,68): warning C4244: аргумент: преобразование "T" в "size_t", возможна потеря данных
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(460): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true,UserData>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              UserData=UserData,
+              T=uint64_t
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(460): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true,UserData>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              UserData=UserData,
+              T=uint64_t
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(431): message : во время компиляции функции-члена класс шаблон "void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true,UserData>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              UserData=UserData
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(299): message : выполняется компиляция ссылки на экземпляр шаблон функции "void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true,UserData>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              UserData=UserData
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(299): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true,UserData>>"
+          with
+          [
+              UserData=UserData
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(248): message : во время компиляции функции-члена класс шаблон "uWS::WebSocketContext<false,true,UserData> *uWS::WebSocketContext<false,true,UserData>::init(void)"
+          with
+          [
+              UserData=UserData
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(415): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::WebSocketContext<false,true,UserData> *uWS::WebSocketContext<false,true,UserData>::init(void)"
+          with
+          [
+              UserData=UserData
+          ]
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\App.h(314): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::WebSocketContext<false,true,UserData>"
+          with
+          [
+              UserData=UserData
+          ]
+C:\Users\1\source\repos\ServerScillbox\ServerScillbox.cpp(52): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::TemplatedApp<false> &&uWS::TemplatedApp<false>::ws<UserData>(std::string,uWS::TemplatedApp<false>::WebSocketBehavior<UserData> &&)"
+C:\Users\1\source\repos\ServerScillbox\ServerScillbox.cpp(120): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::TemplatedApp<false> &&uWS::TemplatedApp<false>::ws<UserData>(std::string,uWS::TemplatedApp<false>::WebSocketBehavior<UserData> &&)"
+C:\Users\1\Dev\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(341,64): warning C4244: аргумент: преобразование "T" в "size_t", возможна потеря данных
+          with
+          [
+              T=uint64_t
+          ]
+  ServerScillbox.vcxproj -> C:\Users\1\source\repos\ServerScillbox\Debug\ServerScillbox.exe
